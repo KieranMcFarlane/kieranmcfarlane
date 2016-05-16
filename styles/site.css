@@ -1,0 +1,783 @@
+/* -----RED TEXT = #e46965 */
+/* -----GRAY TEXT = #777 */
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700);
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	letter-spacing: 0.2px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/* font-family: "alverata-informal-pe", sans-serif; */
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+h2 {
+	color: #b61e1e;
+	font-size: 40px;
+	font-weight: normal;
+	margin: 15px 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.container-2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ---------------- MAIN NAVIGATION --------------- */
+nav {
+	background-color: #26345D;
+	height: 40px;
+}
+
+.menu-icon { display: none; }
+
+.nav-list, .social-list {
+	list-style: none;
+}
+
+.nav-list li, .social-list li {
+	float: left;
+}
+
+.nav-list li {
+	margin-right: 20px;
+}
+
+.nav-list li a {
+	color: #EECE90;
+	text-decoration: none;
+}
+
+.nav-list {
+	padding-top: 10px;
+	float: left;
+}
+.social-list {
+	margin-top: 5px;
+	float: right;
+}
+
+.social-list li {
+	margin-left: 20px;
+}
+
+/* ------------ HEADER -------------- */
+header {
+    text-align: center;
+}
+
+header img {
+    margin: 2%;
+    width: 20%;
+    min-width: 150px;
+    max-width: 250px;
+}
+
+
+
+/* ------------ HEADER - ABOUT US -------------- */
+
+.head{
+background-color: #fff;
+}
+.head h1, .head h3 {
+	font-weight: normal;
+	text-align: center;
+}
+
+.head h1 {
+	font-size: 44px;
+	margin-top: 20px;
+}
+
+.head h3 {
+	color: #e46965;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+/* ------------- FEATURE SECTION -------------- */
+.feature {
+	background: url('../images/apple-imac-2.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.feature-list {
+	list-style: none;
+	background: url('../images/apple-imac-2.jpg') no-repeat;
+    background-size: cover;
+	height: 300px;
+    background-attachment: fixed;
+}
+
+.feature-list li {
+	width: 33.3333%;
+	height: 300px;
+	float: left;
+	border-left: 1px solid white;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.feature-list li:last-child {
+	border-right: 1px solid white;
+}
+
+.feature-list li a {
+	text-decoration: none;
+}
+
+.feature-title {
+	color: white;
+	opacity: 0.5;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.feature-list li a:hover .feature-title {
+	opacity: 1;
+}
+
+.feature-icon{
+    opacity: .9;
+}
+
+.feature-icon:hover{
+opacity: 1;
+}
+
+
+/* -------- PORTFOLIO -------------- */
+.portfolio-samples {
+	background-color: #dadada;
+	padding: 5px 0 20px 0;
+	margin-top: 20px;
+}
+
+.portfolio-works{
+    margin-top: 0;
+    margin: 0 auot;
+}
+
+.portfolio-list {
+	list-style: none;
+}
+
+.portfolio-list li {
+	background-color: #555;
+	width: 210px;
+	height: 210px;
+	float: left;
+	margin-right: 20px;
+    margin-top: 20px;
+	position: relative;
+}
+
+.smaller-fit li{
+    width: 205px;
+    height: 205px;
+}
+
+.portfolio-list li:last-child {
+	margin-right: 0;
+}
+
+.port-remedy { background: url('../images/assets/Remedy-IT-Solutions/rc-3.png') center no-repeat;
+background-size: cover;
+}
+.port-personal { background: url('../images/assets/Personal-Projects/Weirdandwonderful.png')  no-repeat; background-size: cover; }
+.port-bapeescape { background: url('../images/assets/BapeEscape/bp-1.png') center center no-repeat; background-size: cover; }
+.port-ashdale { background: url('../images/assets/Edward-Ashdale/EA-1.png') no-repeat; background-size: cover;}
+.port-cakes { background: url('../images/assets/Rhodas-Cakes/rc-2.png') -130px -60px no-repeat;}
+.port-tag { background: url('../images/assets/TAG-Recruitment/mac-1.png') no-repeat;
+background-size: cover;}
+
+.icon-right{
+    margin-right: 3px;
+}
+
+.portfolio-list li span {
+	position: absolute;
+	box-sizing: border-box;
+	bottom: 0;
+	width: 210px;
+	height: 52px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 7px;
+}
+
+.port-caption li span {
+    width: 205px;
+}
+
+.portfolio-list a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	float: left;
+}
+
+.portfolio-list .sample-icon {
+	float: right;
+}
+
+.show{
+    display: none;
+}
+
+/* -------------- FOOTER ------------ */
+footer {
+	background-color: #252525;
+	color: #9d9d9d;
+	padding: 20px 0 60px 0;
+	position: relative;
+}
+
+footer h3 {
+	color: #e46965;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+.col-one-third {
+	width: 33%;
+	float: left;
+}
+
+.footer-list dt {
+	font-weight: bold;
+}
+
+.footer-list dd {
+	margin-left: 0;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+footer address {
+	font-style: normal;
+}
+
+footer address a {
+	color: #9d9d9d;
+	text-decoration: none;
+	font-style: italic;
+}
+
+footer address a:hover {
+	text-decoration: underline;
+}
+
+footer .registration input {
+	width: 100%;
+	display: block;
+	background-color: #363636;
+	border: 1px solid #6d6d6d;
+	color: #6d6d6d;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+footer .registration button {
+	background-color: #e46965;
+	border: none;
+	color: white;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+footer .copyright {
+	width: 100%;
+	display: block;
+	background-color: black;
+	color: #555;
+	text-align: center;
+	padding: 20px 0;
+	position: absolute;
+	bottom: 0;
+}
+
+.col-one-third2{
+    float: right;
+}
+
+.col-one-third2 li{
+    list-style-type: none;
+    margin-top: 4px;
+}
+
+.col-one-third2 li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.fa-mobile{
+    margin-left: 3px;
+    margin-right: 8px;
+}
+
+.fa-envelope-o{
+    margin-right: 5px;
+}
+
+.fa-twitter{
+    margin-right: 5px;
+}
+
+.fa-file-pdf-o{
+    margin-right: 4px;
+}
+
+/* ----------- PORT-PAGE -------------- */
+
+.port-header{
+    display: table;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #7f8c97;
+}
+
+.port-header h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3rem;
+}
+
+.port-header2{
+    display: table;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url('../images/kidcurrent-movie.gif');
+    background-repeat: no-repeat;
+    background-position: center -90px;
+    background-color: #000;
+    -webkit-animation: try2 4s;
+}
+
+@-webkit-keyframes try2 {
+    0% {background-position: left;}
+    40% {background-position: center;}
+    80% {background-position: right;}
+     100%{background-position: center -90px;}
+   
+    
+}
+
+.video{
+  width: 100%    !important;
+  height: auto   !important;
+
+}
+
+.port-header2 h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 4px 4px 4px #000;
+    -webkit-animation: try 5s;
+}
+
+@-webkit-keyframes try {
+    0% {opacity: 0;}
+    99% {opacity: 0;}
+    100% {opacity: 1;}
+    
+}
+
+
+.port-header3 h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.port-header3{
+    display: table;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url('../images/portfolio-page.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.port-header4 h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.port-header4{
+    display: table;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url('../images/work.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.port-header5 h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.port-header5{
+    display: table;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url('../images/42H.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.port-header6 h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.port-header6{
+    display: table;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url('../images/2H.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.port-header7 h1{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.port-header7{
+    display: table;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url('../images/About.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.port-img{
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+#heights{
+    height: 210px;
+}
+
+.white{
+    background-color: white;
+    max-width: 100%;
+}
+
+.middle{
+    position: relative;
+    width: 200px;
+margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.middle h1{
+    position: absolute;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.middle ul li{
+    display: inline;  
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.middle ul{
+    width: 500px;
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav-bio{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bio-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    background-image: url(/images/IMG_8785_3.JPG);
+    background-size: cover;
+    background-position: center;
+    z-index: 100;
+    position: relative;
+    bottom: 80px
+}
+
+.line{
+  position: relative;
+  height: 100px;
+  width: 5px;
+  background: #2a385f;
+    bottom: 100px;
+    left: 100px;
+}
+
+
+
+
+
+/* ----------- BODY-COLUMNS -------------- */
+
+.two-col{
+    width: 66%;
+    float: left;
+}
+
+.one-col{
+    width: 28%;
+    float: right;
+}
+
+/* ----------- CLEARFIX -------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+
+
+/* ---------------- RESPONSIVE --------------- */
+@media (max-width: 899px) {
+	.container { padding: 0 10px; }
+	
+	.feature-list {
+		margin: 0 10px;
+		padding: 0;
+	}
+	
+	.portfolio-list {
+		width: 100%;
+	}
+	
+	.portfolio-list li {
+		width: 25%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.portfolio-list li span {
+		width: 100%;
+	}
+    
+    .middle{
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+	
+	.menu-icon {
+		display: block;
+		padding-top: 6px;
+		cursor: pointer;
+	}
+	
+	.nav-list {
+		display: none;
+		background-color: #aaa;
+		width: 100%;
+		padding: 10px;
+		padding-bottom: 0;
+		margin-top: 6px;
+		position: relative;
+		left: -10px;
+	}
+	
+	.nav-list li {
+		display: block;
+		float: none;
+		margin-bottom: 20px;
+	}
+	
+	.social-list {
+		position: absolute;
+		top: 0px;
+		right: 10px;
+	}
+	
+	.portfolio-list li {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.feature-list {
+		background: none;
+		width: 100%;
+		margin: 0;
+		height: auto;
+	}
+	
+	.feature-list li {
+		background-image: url('../images/apple-imac-2.jpg') ;
+		float: none;
+		height: 120px;
+		border-right: none !important;
+		border-left: none;
+		border-bottom: 1px solid white;
+		width: 100%;
+		text-align: left;
+		padding: 0;
+		margin-top: 0 !important;
+	}
+	
+	.feature-icon {
+		float: left;
+		margin: 28px 20px 0 10px;
+	}
+	
+	.feature-title {
+		line-height: 120px;
+		margin: 0;
+	}
+	
+	.feature-web { background-position: top left; }
+	.feature-graphic { background-position: bottom center; }
+	.feature-video { background-position: center right; }
+	
+	.col-one-third {
+		float: left;
+		width: 50%;
+	}
+    
+    .col-one-third2 {
+		float: left;
+		width: 50%;
+        margin-bottom: 15px;
+	}
+    
+    .one-col {
+		float: none;
+		width: 100%;
+	}
+    
+    .two-col {
+		float: none;
+		width: 100%;
+	}
+    
+    
+    .port-laptops { background: url('../images/assets/Remedy-IT-Solutions/rc-3.png') left no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+    .show{
+        display: inline-block;
+    }
+    
+    .one-col{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 460px) {
+    .col-one-third {
+		float: none;
+		width: 100%;
+	}
+    
+     .col-one-third2 {
+		float: none;
+		width: 100%;
+        margin-bottom: 20px;
+	}
+    
+        .port-laptops { background: url('../images/assets/Remedy-IT-Solutions/rc-3.png') left no-repeat;
+background-size: cover;
+
+}
+    
+       .show{
+        display: inline-block;
+    }
+    
+    .one-col{
+        display: none;
+    }
+    
+}
